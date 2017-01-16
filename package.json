@@ -1,0 +1,31 @@
+{
+  "name": "api-with-node-v1",
+  "version": "1.0.0",
+  "description": "Twitter api app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantm44/api-with-node-v1.git"
+  },
+  "keywords": [
+    "twitter",
+    "node",
+    "express",
+    "pug"
+  ],
+  "author": "Grant McDonnal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grantm44/api-with-node-v1/issues"
+  },
+  "homepage": "https://github.com/grantm44/api-with-node-v1#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment": "^2.17.1",
+    "pug": "^2.0.0-beta6",
+    "twit": "^2.2.5"
+  }
+}
