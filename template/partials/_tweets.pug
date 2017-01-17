@@ -6,8 +6,8 @@
             strong.app--tweet--timestamp #{tweet.created_at}
             |             
             a.app--tweet--author
-              .app--avatar(style='background-image: url('+ tweet.profile_image_url +')')
-                img(src=tweet.profile_image_url)
+              .app--avatar(style='background-image: url('+ tweet.user.profile_image_url +')')
+                img(src=tweet.user.profile_image_url)
               |               
               h4 #{tweet.user.name}
               |  @#{tweet.user.screen_name}

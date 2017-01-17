@@ -60,7 +60,6 @@ view.T.get('direct_messages', options)
       //text of tweet, likes, retweet-count, time
     dm = result.data;
     dm = timeStamp(dm);
-    console.log(dm);
   })
 
 
